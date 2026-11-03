@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transition</title>
+    <style>
+        .my-button {
+        background-color: blue;
+        color: white;
+        padding: 12px 24px;
+        border: none;
+        transition: background-color 0.5s cubic-bezier(0, 0.87, 0.67,-0.29);
+        }
+
+        .my-button:hover {
+        background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <button class="my-button">Hover over me</button>
+</body>
+</html>
